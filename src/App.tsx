@@ -3,18 +3,20 @@ import "./App.css";
 
 class App extends React.Component {
   componentDidMount() {
-
+    if(document!.getElementById("backgroundMusic")){
       (document && (document!.getElementById("backgroundMusic") as any))!
-        .play()
-        .catch(() => {
-          document.addEventListener(
-            "click",
-            () => {
-              (document!.getElementById("backgroundMusic") as any).play();
-            },
-            { once: true }
-          );
-        });
+      .play()
+      .catch(() => {
+        document.addEventListener(
+          "click",
+          () => {
+            (document!.getElementById("backgroundMusic") as any).play();
+          },
+          { once: true }
+        );
+      });
+    }
+   
  
   }
   render(): React.ReactNode {
