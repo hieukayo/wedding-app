@@ -136,7 +136,7 @@ function App() {
                 </div>
                 <div className="t6-place-invitation upper text-xl t6-text-brown">
                   <p>
-                    tới dự lễ thành hôn và bữa tiệc thân mật của gia đình chúng
+                    Tới dự bữa cơm thân mật mừng lễ thành hôn của gia đình chúng
                     tôi
                   </p>
                 </div>
@@ -162,7 +162,7 @@ function App() {
                     <div className="t6-square mid-right" />
                     <div className="t6-title text-xl t6-text-brown">
                       <p>tại:</p>
-                      <p
+                      <a
                         style={{ cursor: "pointer" }}
                         onClick={() => {
                           window.open(
@@ -172,7 +172,7 @@ function App() {
                         }}
                       >
                         LONG VĨ PALACE
-                      </p>
+                      </a>
                     </div>
                     <div className="name text-xl t6-text-brown">
                       <p>Tầng 2, Số 3A Đào Duy Anh, Quận Đống Đa, Hà Nội</p>
@@ -342,8 +342,7 @@ function App() {
                       id="ivia2e"
                       className="t6-event-address text-base t6-text-brown"
                     >
-                      Xóm II, Thôn Quỳnh Đô, Xã Vĩnh Quỳnh, Huyện Thanh Trì, Hà
-                      Nội
+                      Tại Nhà gái: Xóm II, Vĩnh Quỳnh, Thanh Trì, Hà Nội
                     </div>
                   </div>
                   <div
@@ -380,7 +379,8 @@ function App() {
                       id="i32dcf"
                       className="t6-event-address text-base t6-text-brown"
                     >
-                      Tại Tầng 2, Số 3A Đào Duy Anh, Quận Đống Đa, Hà Nội
+                      Tại Tầng 2, Long Vĩ Palace, Số 3A Đào Duy Anh, Quận Đống
+                      Đa, Hà Nội
                     </div>
                   </div>
                   <div
@@ -403,23 +403,18 @@ function App() {
                       id="idv8ua"
                       className="t6-event-name text-2xl t6-font-secondary t6-text-secondary"
                     >
-                      Lễ Thành hôn và Tiệc rượu
+                      Lễ Thành hôn và bữa cơm thân mật
                     </div>
                     <a
+                      href="https://goo.gl/maps/WiDYHboMyXmn3gAt7"
                       data-block-node="timemark-address"
                       target="_blank"
                       id="ijex7t"
                       className="t6-event-place text-base mb-16 t6-text-brown"
                     >
-                      Long Vĩ Palace
+                      Tại Tầng 2, Long Vĩ Palace, Số 3A Đào Duy Anh, Quận Đống
+                      Đa, Hà Nội
                     </a>
-                    <div
-                      data-block-node="timemark-content"
-                      id="iuh3ff"
-                      className="t6-event-address text-base t6-text-brown"
-                    >
-                      Tại Tầng 2, Số 3A Đào Duy Anh, Quận Đống Đa, Hà Nội
-                    </div>
                   </div>
                 </div>
               </div>
@@ -462,7 +457,8 @@ function App() {
                 src={require("./img/2.jpg")}
                 style={{
                   width: "100%",
-                  height: "fit-content",
+                  height: "auto",
+                  objectFit:"cover",
                   display: "flex",
                   justifyContent: "center",
                 }}
@@ -478,7 +474,7 @@ function App() {
                 <p className="messageText">
                   Of golden sands, and crystal brooks,
                 </p>
-               
+
                 <p className="messageText">
                   With silken lines, and silver hooks”
                 </p>
@@ -489,7 +485,7 @@ function App() {
             <section className="t6-footer">
               <div className="t6-container t6-footer-wrapper">
                 <div className="t6-footer-content">
-                 <p className="messageText"> Quang Anh ~ Hồng vân</p>
+                  <p className="messageText"> Quang Anh ~ Hồng Nhân</p>
                 </div>
               </div>
               <div>
@@ -550,7 +546,6 @@ function App() {
         <div className="notification-wrapper" data-v-0d9974ee>
           {/**/}
         </div>{" "}
-    
       </div>
     </div>
   );
