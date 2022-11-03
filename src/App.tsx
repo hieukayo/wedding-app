@@ -184,12 +184,7 @@ function App() {
                   />
                 </div>
                 <div className="t6-place-line nt-mx-auto mb-35" />
-                <div className="t6-place-invitation text-xl t6-text-brown">
-                  <p>
-                    Sự hiện diện của bạn là niềm vinh hạnh của gia đình chúng
-                    tôi!
-                  </p>
-                </div>
+              
                 <div className="t6-bowtie t6-place-bowtie">
                   <div
                     data-block="decoration"
