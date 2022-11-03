@@ -449,6 +449,9 @@ function App() {
                   <div className="nt-album-item">
                     <img src={require("./img/11.jpg")} />
                   </div>
+                  <div className="nt-album-item">
+                    <img src={require("./img/12.jpeg")} />
+                  </div>
                 </div>
               </div>
             </section>
