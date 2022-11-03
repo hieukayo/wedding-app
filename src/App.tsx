@@ -3,7 +3,7 @@ import "./App.css";
 
 class App extends React.Component {
   componentDidMount() {
-    setTimeout(() => {
+
       (document && (document!.getElementById("backgroundMusic") as any))!
         .play()
         .catch(() => {
@@ -15,7 +15,7 @@ class App extends React.Component {
             { once: true }
           );
         });
-    }, 2000);
+ 
   }
   render(): React.ReactNode {
     return (
