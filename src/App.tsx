@@ -97,7 +97,7 @@ class App extends React.Component<Props, State> {
                 <div className="t6-container t6-container-banner">
                   <div className="t6-invitation-content">
                     <p className="t6-invitation-title t6-text-brown text-4xl">
-                      Save Our Date
+                      Save The Date
                     </p>
                     <div className="t6-invitation-name t6-text-secondary text-6xl">
                       <div className="groom t6-font-secondary">
@@ -276,7 +276,7 @@ class App extends React.Component<Props, State> {
                     <div className="t6-info-desc text-base t6-text-brown" />
                     <div className="t6-info-wapper-decor">
                       <img
-                        src="https://image.namtay.vn/fit/800/images/wedsite/c3jjZ9kktK_tmp.png"
+                        src={require("./img/16.jpg")}
                         width={567}
                         height={567}
                         className="t6-info-img"
@@ -303,7 +303,7 @@ class App extends React.Component<Props, State> {
                     <div className="t6-info-desc text-base t6-text-brown" />
                     <div className="t6-info-wapper-decor">
                       <img
-                        src="https://image.namtay.vn/fit/800/images/wedsite/EMOnf8x1LH_tmp.png"
+                        src={require("./img/17.jpg")}
                         alt="bride"
                         width={567}
                         height={567}
@@ -366,15 +366,15 @@ class App extends React.Component<Props, State> {
                         id="i7v4kq"
                         className="t6-event-place text-base mb-16 t6-text-brown"
                       >
-                        Nhà gái
+                        Tại gia đình nhà chúng tôi
                       </a>
-                      <div
+                      {/* <div
                         data-block-node="timemark-content"
                         id="ivia2e"
                         className="t6-event-address text-base t6-text-brown"
                       >
-                        Tại Nhà gái: Xóm II, Vĩnh Quỳnh, Thanh Trì, Hà Nội
-                      </div>
+                       
+                      </div> */}
                     </div>
                     <div
                       data-block="timemark"
