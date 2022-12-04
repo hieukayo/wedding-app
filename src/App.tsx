@@ -366,15 +366,15 @@ class App extends React.Component<Props, State> {
                         id="i7v4kq"
                         className="t6-event-place text-base mb-16 t6-text-brown"
                       >
-                        Tại gia đình nhà chúng tôi
+                     
                       </a>
-                      {/* <div
+                      <div
                         data-block-node="timemark-content"
                         id="ivia2e"
                         className="t6-event-address text-base t6-text-brown"
                       >
-                       
-                      </div> */}
+                          Tại gia đình nhà chúng tôi
+                      </div>
                     </div>
                     <div
                       data-block="timemark"
